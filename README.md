@@ -1,7 +1,7 @@
 To run the script
 - Start the AWS Academy Learner Lab
 
-On the Vocareum window
+In the Vocareum window
 - Click on "Start lab"
 - Click on "AWS Details"
 - Click on "ASW CLI: Show"
@@ -22,7 +22,7 @@ In the termianl / PowerShell of your computer
   Or 
   - load this script in VS Code and run it
 - Run this Pythong script and direcct the output to both the screen and a file
-  On bash
+  In bash
     - python3 skills_lab_1_assessment.py | tee output.txt
-  On PowerShell
+  In PowerShell
     - python3 script.py | Tee-Object -FilePath "output.txt"
