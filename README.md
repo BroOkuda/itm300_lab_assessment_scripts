@@ -28,14 +28,14 @@ cat > ~/.aws/credentials
 
 Paste the credentials, press **Return**, and then press **Ctrl+D**.
 
-### 3. Install the `rich` Module
+### 3. Activate the virtual environment and install the `rich` Module
 
 If you have not installed it yet:
 
 ```bash
-python3 -m venv venv
-pip install --upgrade pip
-pip install rich
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install rich
 ```
 
 ### 4. Run the Python Script
